@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimg {
+    background-image: url(../img/netflix.png);
+    width: 100%;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.logo img {
+    height: 100px;
+    margin-top: -32px;
+
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1.9fr 0.4fr;
+    padding: 20px 10px 0px 50px;
+
+}
+
+.language {
+    font-weight: 400;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    height: 2.4rem;
+    width: 6rem;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.language option {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.btn {
+    background-color: rgb(229, 9, 20);
+    font-weight: 400;
+    font-size: 15px;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 0px rgb(67, 67, 67);
+    color: white;
+    margin-top: -1px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 63px;
+}
+
+h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    margin-bottom: 5px;
+
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline input {
+    height: 4rem;
+    width: 500px;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.inline button {
+    height: 4rem;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    font-size: 25px;
+    cursor: pointer;
+    width: 170px;
+    outline: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+button:hover {
+    background-color: rgb(229, 9, 20);
+    opacity: 0.9;
+}
+
+.list {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+/* media query section 1*/
+
+@media(max-width: 600px) {
+    input {
+        font-size: 18px
+    }
+
+    button {
+        width: 130px;
+        font-size: 18px;
+    }
+
+    .logo img {
+        height: 75px;
+        margin-top: -22px;
+    }
+
+    .logo {
+        padding-left: 15px;
+    }
+
+    .btn {
+        width: 4.5rem;
+    }
+
+    .language {
+        width: 5.5rem;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    .list {
+        padding-bottom: 100px;
+    }
+
+}
+
+@media(max-width: 400px) {
+    .logo {
+        padding-left: 0px;
+    }
+
+    .language {
+        margin-right: 10px;
+        height: 2.1rem;
+        font-size: 12px;
+        width: 4.6rem;
+
+    }
+
+    .btn {
+        height: 2.1rem;
+        font-size: 12px;
+        margin-top: 1px;
+    }
+
+    .inline button {
+        font-size: 1rem;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2,
+    h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .list {
+        padding-top: 100px;
+
+    }
+}
+
+@media(max-width:950px) {
+    .inline {
+        flex-direction: column;
+    }
+
+    .inline input {
+        width: 70%;
+        height: 3rem;
+    }
+
+    .inline button {
+        height: 2.7rem;
+        font-size: 1.2rem;
+        width: 140px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        line-height: 23px;
+    }
+}

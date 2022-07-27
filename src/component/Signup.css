@@ -1,0 +1,103 @@
+.signupSignin{
+    float: right;
+    color: black;
+    font-size: 2rem;
+    margin: 23px 45px 0px 0px;
+    cursor: pointer;
+}
+.logoBottom{
+    border-bottom: 1px solid #e6e6e6;
+}
+.showcase-content1 {
+	position: relative;
+	z-index: 2;
+	width: 450px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	padding: 60px 65px;
+}
+.step{
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.step1{
+    margin-bottom: -10px;
+}
+.join{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    line-height: normal;
+
+}
+.formm1 .info1 .email {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    font-size: inherit;
+    border: 1px solid black;
+
+}
+.formm1{
+    width: 450px;
+}
+.info1 input[type=password] {
+    font-family: 'Times New Roman', Times, serif;
+}
+.forgot a{
+    color: #0071eb;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.nextBtn{
+    border-radius: 0px;
+    height: 3rem;
+    margin-top: 20px;
+}
+.signupFooter{
+    background-color: #f3f3f3;
+}
+.signupLanguage{
+    color: black;
+    opacity: 0.6;
+    background-color: #f3f3f3;
+    
+}
+@media(max-width:950px){
+    .showcase-content1{
+        width: 100%;
+        padding: 25px;
+    }
+    .ftr-content1{
+        margin-top: 0px;
+    }
+    
+}
+@media(max-width:750px){
+    
+    .ftr-content1{
+        margin-top: 20px;
+    }
+    
+}
+@media(max-width:500px){
+    .formm1{
+        width: 100%;
+    }
+    .logo-1 img {
+        width: 135px;
+    }
+    .signupSignin {
+        margin: 15px 25px 0px 0px;
+    }
+}

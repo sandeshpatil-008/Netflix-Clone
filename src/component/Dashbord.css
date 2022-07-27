@@ -1,0 +1,61 @@
+.loginBg{
+    height: 25rem;
+}
+.filterMovie{
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid white;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+}
+.l-movie{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    background-color: black;
+    padding: 3rem 0rem ;
+}
+.filterHead{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.selectV {
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 5.5rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    margin-right: 1rem;
+}
+.selectV:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+select option{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.serchBarr{
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem;
+    width: 50rem;
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 1.1rem;
+}
+.serchSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    margin: 0rem 2rem 0rem 2rem;
+}

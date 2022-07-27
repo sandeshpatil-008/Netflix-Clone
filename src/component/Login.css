@@ -1,0 +1,299 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* body {
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+} */
+h1,
+h2,
+h3,
+h4,
+p{
+	color: #fff;
+}
+.signHeading{
+	color: #fff;
+	font-size: 2.5rem;
+	margin-bottom: 25px;
+
+}
+ul {
+	list-style: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+
+.logoImg {
+	width: 100%;
+	cursor: pointer;
+}
+
+.showcase {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+}
+
+.showcase::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000px;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.65);
+	box-shadow: inset 30px 10px 150px #000000;
+}
+
+.logo-1 {
+	position: relative;
+	z-index: 2;
+	height: 90px;
+}
+
+.logo-1 img {
+	width: 170px;
+	position: absolute;
+	left: 40px;
+}
+
+.showcase-content {
+	position: relative;
+	z-index: 2;
+	width: 450px;
+	height: 600px;
+	background: rgb(0, 0, 0, 0.65);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: left;
+	padding: 60px 65px;
+}
+
+.formm h1 {
+	margin-bottom: 20px;
+}
+
+.formm {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.formm .info {
+	padding: 5px 0;
+	/* margin-bottom: 20px; */
+}
+
+.formm .info .email {
+	margin-bottom: 30px;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+	font-size: inherit;
+	color: white;
+}
+
+.formm .signbtn {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+
+
+.help {
+	display: grid;
+    font-size: 0.8rem;
+    grid-template-columns: 0.1fr 2fr 1fr;
+}
+
+.help a:hover {
+	text-decoration: underline;
+}
+.need{
+	text-align: end;
+}
+
+/* ------ input ------- */
+
+.info input[type=checkbox] {
+	background: #737373;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border: 0;
+	height: 16px;
+	left: -20px;
+	width: 16px;
+	margin-right: 5px;
+}
+
+.info input[type=email] {
+	background: #343434;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.info input[type=password] {
+	background: #343434;
+	font-family: 'Times New Roman', Times, serif;	
+}
+
+.signColr{
+	color: #b3b3b3;
+	font-size: 0.9rem;
+	margin-left: 5px;
+}
+.btnSign{
+	width: 100%;
+}
+
+/* ------ input end ------- */
+
+/* .fcbk {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 0.8em;
+}
+
+.fcbk img {
+	width: 20px;
+	margin-right: 10px;
+} */
+
+.signup {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.signup p {
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+
+.more {
+	font-size: 0.8em;
+	line-height: 1.1em;
+}
+
+.more a {
+	color: rgb(17, 108, 228);
+}
+
+.more a:hover,
+.signup a:hover {
+	text-decoration: underline;
+}
+
+/* ------ FOOTER ------- */
+
+footer {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	/* height: 250px; */
+	background-color: rgba(0,0,0,0.65);
+	margin-top: 10vh;
+
+}
+
+.ftr-content {
+	display: grid;
+    width: 80%;
+    margin: 0 auto;
+	padding-top: 36px;
+	font-size: 1em;
+	padding-bottom: 36px;
+}
+
+.ftr-content a {
+	color: #999;
+}
+
+.ftr-content a:hover {
+	text-decoration: underline;
+}
+
+.contact {
+	margin-bottom: 30px;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+}
+
+.ftr {
+	margin-bottom: 30px;
+	font-size:0.9rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+}
+
+.select select {
+	width: 100px;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: inherit;
+	padding-left: 10px;
+	background: #333333;
+	color: white;
+}
+@media(max-width:950px){
+	
+}
+@media(max-width:750px){
+	.ftr{
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 15px;
+	}
+	
+	.showcase-content{
+		width: 100%;
+		background: rgb(0, 0, 0, 1);
+		border-bottom: 1px solid white;
+		padding: 30px;
+	}
+	.showcase::after{
+		background: rgba(0, 0, 0, 1);
+	}
+	.ftr-content{
+		padding-top: 0px;
+	}
+	.logo-1 img{
+		left: 15px;
+	}
+}
+@media(max-width:400px){
+	.ftr{
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 20px;
+	}
+	.contact{
+		margin-bottom: 20px;
+	}
+	.help{
+		grid-template-columns: 0.1fr 2fr 1.9fr;
+	}
+	
+}

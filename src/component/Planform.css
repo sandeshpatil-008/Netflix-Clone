@@ -1,0 +1,221 @@
+.choose {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.topMainSec {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 60px 150px 0px 150px;
+}
+
+.topSec {
+    width: 100%;
+}
+
+.check2 {
+    font-size: 2rem;
+    color: #e50914;
+}
+
+.checkMain {
+    display: flex;
+    gap: 5px;
+}
+
+@media(max-width:950px) {
+    .choose {
+        margin-top: 20px;
+        line-height: 35px;
+    }
+
+    .topMainSec {
+        padding: 60px 0px 0px 25px;
+    }
+}
+
+.planBox {
+    display: flex;
+    padding: 60px 150px 0px 10px;
+    justify-content: flex-end;
+    align-items: center;    
+
+}
+.planWright{
+    margin-right: 50px;
+}
+
+
+.mainPlanbox {
+    margin-bottom: 200px;
+}
+
+.box1 {
+    height: 90px;
+    width: 90px;
+    background: #e50914;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0.6;
+    padding: 1px;
+    text-align: center;
+    padding-top: 34px;
+}
+
+.box1:hover {
+    background: #2e2e2e;
+}
+
+.box2 {
+    height: 40px;
+    width: 90px;
+    background: white;
+    border-radius: 2px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0.6;
+    padding: 1px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box3 {
+    height: 40px;
+    width: 150px;
+    background: white;
+    border-radius: 2px;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    opacity: 0.6;
+    padding: 1px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.planBox1 {
+    display: flex;
+    padding: 10px 150px 0px 10px;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+
+.nextNew {
+    display: grid;
+    justify-content: center;
+}
+
+.nextBtn1 {
+    width: 400px;
+}
+
+.planIcons {
+    font-size: 1.8rem;
+}
+
+.termOfUse {
+    margin-right: 20px;
+    color: black;
+    opacity: 0.6;
+}
+
+@media(max-width:900px) {
+    .planBox {
+        padding: 10px 20px 0px 10px;       
+
+    }
+    .planWright{
+        margin-right: 10px;
+    }
+    
+    .planBox1 {
+        padding: 10px 20px 0px 10px;    
+
+    }
+
+    .box2 {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .box3 {
+        padding-top: 0px;
+    }
+}
+
+@media(max-width:600px) {
+    .box1 {
+        height: 70px;
+        width: 70px;
+        font-size: 14px;
+        padding-top: 26px;
+    }
+
+    .box2 {
+        width: 70px;
+        font-size: 14px;
+    }
+
+    .planIcons {
+        font-size: 1.2rem;
+    }
+
+    .box3 {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .termOfUse {
+        font-size: 0.9rem;
+
+    }
+
+    .nextBtn1 {
+        width: 270px;
+    }
+
+    .choose {
+        font-size: 1.3rem;
+    }
+    .chang{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:470px) {
+    .nextNew {
+        justify-content: start;
+    }
+
+    .box2 {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .box1 {
+        height: 50px;
+        width: 50px;
+        font-size: 10px;
+        padding-top: 18px;
+
+    }
+
+    .box3 {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+}
