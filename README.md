@@ -1,13 +1,18 @@
 # Netflix-Clone
 
-This project is a simplified front end clone of Netflix. It was created with React and CSS (Grid and Flexbox).
+This project is a simplified front-end and Back-end clone of Netflix. It was created with React and CSS (Grid and Flexbox).
 
 # Tools used
 - React
 - React-Router
+- Html
 - Css (grid & flexbox)
 - Media queries
 - JS
+- NodeJs
+- ExpressJs
+- MongoDb
+- Postman Api
 
 # Runing Project Locally
 - Install dependencies: run npm install in root project
