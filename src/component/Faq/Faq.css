@@ -1,0 +1,413 @@
+.faqMain {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.f-left {
+    display: flex;
+}
+
+.faqLogo {
+    height: 4rem;
+    width: 8rem;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+.faqIcon{
+    display: none;
+    height: 2.5rem;
+    width: 4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.f-help {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.f-help:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bar {
+    border-left: 1px solid white;
+    height: 1.5rem;
+    width: 1rem;
+    margin-top: 1.3rem;
+}
+
+.f-join {
+    width: 7rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+
+}
+
+.f-join:hover {
+    background-color: #eaeae6;
+    color: rgb(86, 85, 85);
+}
+
+.f-btn {
+    margin-right: 9rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+/* faq Middel sec */
+.faq1{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+}
+.faqShort{
+    display: flex;
+    margin-bottom: 2rem;
+    color: #e50914;
+}
+
+.faqShort:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fWhat{
+    display: block;
+}
+.whatHead{
+    color: black;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.tvHead{
+    color: rgb(84, 84, 84);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.whatImg{
+    width: 70%;
+}
+.faqCard{
+    height: 19rem;
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top: 8px solid #e50914;
+    margin-left: 3.5rem;
+}
+.imgg{
+    display: flex;
+}
+.releted{
+    color: black;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.nn{
+    text-decoration: underline;
+    margin-top: 0rem;
+    color: black;
+    font-weight:normal;
+}
+.nn:hover{
+    color: rgb(101, 100, 99);
+    cursor: pointer;
+}
+.fCard{
+    font-size: 25px;
+}
+.cardL{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+
+}
+.whatText{
+    color: black;
+    font-size: 1.1rem;
+    width: 70%;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+.higlight{
+    color: #e50914;
+
+}
+.higlight:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.underLine{
+    border-bottom: 1px solid rgb(101, 100, 99);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 70%;
+}
+.note{
+    border-left: 5px solid  rgb(172, 172, 172);
+}
+.not{
+    color: black;
+    font-weight: 600;
+}
+.sup{
+    margin-left: 0.8rem;
+}
+.getH{
+    line-height: 2rem;
+}
+/* hide sec */
+.gYes{
+    color: black;
+    text-decoration: underline;
+    margin-left: 1rem;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+}
+.gYes:hover{
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+.gBottom{
+    margin-bottom: 2rem;
+}
+.f-submit{
+    background-color: black;
+    height: 2.5rem;
+}
+.fFeed{
+    width: 70%;
+    /* height: 3rem; */
+    border: 1px solid rgb(128, 127, 127);
+    outline: none;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #7a7675;
+    border-radius: 5px;
+
+}
+.faqAiticle{
+    display: flex;
+    font-size: 1.2rem;
+}
+/* Footer */
+
+.faqContact{
+    width: 100%;
+    background-color: rgb(242,242,242);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.faqHead{
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    margin-left: 8rem;
+    padding-top: 2rem;
+}
+.faqCall{
+    margin-right: 8.9rem;
+    margin-top: 1rem;
+
+}
+.faqcBtn{
+    border: 1px solid black;
+    background-color:rgb(255,255,255) ;
+    color: rgb(76,73,72);
+    padding: 1rem;
+    font-weight: 800;
+       
+}
+.faqcBtn:hover{
+    background-color: #f5f5f1;
+    cursor: pointer;
+}
+
+.faqcBtn1{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.faqFooter{
+    background-color: #221f1f;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.faqLang{
+    margin-top: 2rem;
+    width: 10rem;
+    margin-left: 8.2rem;
+}
+.faqFoot{
+    display: flex;
+    color: #7a7675;
+    justify-content: space-between;
+    width: 40%;
+    margin-right: 8rem;
+    margin-top: 3rem;
+}
+.faqFoot li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #b6b5b2;
+}
+
+/* hide sec */
+
+.dBlock{
+    display: block;
+}
+.dNone{
+    display: none;
+}
+/* media sec */
+@media(max-width:1300px){
+    .faqLogo{
+        margin-left: 3rem;
+    }
+    .f-btn{
+        margin-right: 4rem;
+    }
+    .faqCall{
+        margin-right:4rem;
+    }
+    .faqHead{
+        margin-left: 3.7rem;
+    }
+    .faqFoot{
+        margin-right: 4rem;
+    }
+    .faqLang{
+        margin-left: 4rem;
+    }
+    .faq1{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    
+}
+@media(max-width:1000px){
+    .faqLogo{
+        margin-left: 0rem;
+    }
+    .f-btn{
+        margin-right: 1rem;
+    }
+    .faqCall{
+        margin-right:1rem;
+        margin-left: 1rem;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .faqHead{
+        margin-left: 0.7rem;
+        font-size: 1.3rem;
+    }
+    .faqcBtn{
+        width: 95%;
+        height: 4rem;
+    }
+    .faqContact{
+        display: block;
+    }
+    .faqFoot{
+        display: inline-grid;
+        justify-content: end;
+    }
+    .faqFoot{
+        margin-right: 2rem;
+        margin-top: 2rem;
+    }
+    .faqLang{
+        margin-left: 2rem;
+    }
+    .faq1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .imgg{
+        display: block;
+    }
+    .faqCard{
+        width: 100%;
+        height: 17rem;
+        margin-left: 0rem;
+    }
+    .whatImg{
+        width: 100%;
+    }
+    .whatText{
+        width: 100%;
+    }
+    .underLine{
+        width: 100%;
+    }
+    .fFeed{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .f-left {
+        display: block;
+    }
+    .bar{
+        display: none;
+    }
+    .f-help{
+        margin-top: -10px;
+        margin-left: 1.3rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .faqCall{
+        display: block;
+    }
+    .faqcBtn{
+        width: 100%;
+        font-size: 15px;
+    }
+    .faqFoot{
+        margin-right: 1rem;
+    }
+    .faqLang{
+        margin-left: 1rem;
+        width: 7rem;
+    }
+    .fFeed{
+    padding-bottom: 2rem;
+    }
+    .faqLogo{
+        display: none;
+    }
+    .faqIcon{
+        display: initial;
+    }
+}
+@media(max-width:350px){
+    .faqFooter{
+        display: block;
+        height: auto;
+    }
+    .faqFoot{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+}

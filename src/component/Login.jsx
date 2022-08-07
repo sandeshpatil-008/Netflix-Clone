@@ -99,11 +99,11 @@ const loginHandler  = (e) =>{
                     </div>
                     <div class="ftr">
                         <div>
-                            <a href="#">FAQ</a><br/><br/>
+                            <a onClick={() => navigate("/faq")}>FAQ</a><br/><br/>
                             <a href="#">Cookie Prefrences</a>
                         </div>
                         <div>
-                            <a href="#">Help Center</a><br/><br/>
+                            <a onClick={() => navigate("/help")}>Help Center</a><br/><br/>
                             <a href="#">Corperate Information</a>
                         </div>
                         <div>

@@ -11,6 +11,9 @@ import Login from './component/Login';
 import Signup from './component/Signup';
 import Planform from './component/Planform';
 import Dashbord from './component/Dashbord';
+import Faq from './component/Faq/Faq';
+import Help from './component/helpcenter/Help';
+import Media from './component/mediacenter/Media';
 
 const Routing = () => {
     return (
@@ -27,6 +30,9 @@ const Routing = () => {
                 <Route exact path="/signup" element={<Signup />} />
                 <Route exact path="/planform" element={<Planform />} />
                 <Route exact path="/dashbord/:id" element={<Dashbord />} />
+                <Route exact path="/faq" element={<Faq />} />
+                <Route exact path="/help" element={<Help />} />
+                <Route exact path="/media" element={<Media />} />
             </Routes>
         </>
     );

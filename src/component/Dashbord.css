@@ -1,6 +1,15 @@
 .loginBg{
     height: 25rem;
 }
+.cover1{
+    height: 0;
+}
+.lang{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
 .filterMovie{
     color: white;
     background-color: black;
@@ -16,6 +25,7 @@
     flex-flow: wrap;
     background-color: black;
     padding: 3rem 0rem ;
+    border-bottom: 1px solid white;
 }
 .filterHead{
     font-size: 2rem;
@@ -56,6 +66,27 @@ select option{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15rem;
+    height: 25rem;
     margin: 0rem 2rem 0rem 2rem;
+}
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform:capitalize;
+}
+.date{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.movie:hover{
+    transform: scale(1.06);
+    transition: 0.4s all ease-in-out;
+}
+.movie img{
+    height: 25rem;
+    cursor: pointer;
+}
+.movie{
+    margin-bottom: 2rem;
 }

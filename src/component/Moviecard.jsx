@@ -1,13 +1,20 @@
 import React from 'react';
 import './Moviecard.css';
+import Evil from '../img/evil.png'
+// import King from '../img/king.png'
+// import Beast from '../img/beast.png'
+// import Night from '../img/night.png'
+// import Inter from '../img/inter.png'
+// import Summer from '../img/summer.png'
+// import Away from '../img/away.png'
+// import Desire from '../img/desire.png'
+// import Kobra from '../img/kobra.png'
 
-const Moviecard = (props) => {
+
+const Moviecard = () => {
     return (
         <>
-            <div className="movie">
-                <img src={props.image} alt=""/>
-                <h1 className='movieDate'>{props.date}</h1>
-            </div>  
+                <img src={Evil} alt=""/>
         </>
     );
 };

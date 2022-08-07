@@ -5,6 +5,7 @@ import Questions from './component/Questions';
 import Services from './component/Services';
 
 const App = () => {
+    window.scrollTo(0,0);
     return (
         <>
         <Navbar/>

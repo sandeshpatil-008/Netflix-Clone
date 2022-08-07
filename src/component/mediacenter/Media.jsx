@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import './Dashbord.css';
-import Logo from '../img/logo.png';
+import './Media.css';
+import Logo from '../../img/logo.png';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import Footer from './Footer';
-import Moviecard from './Moviecard';
+import Footer from '../../component/Footer';
+import Moviecard from '../../component/Moviecard';
 
-const Dashbord = () => {
+const Media = () => {
     const navigate = useNavigate();
     const [moviedata, setMovieData] = useState([]);
 
@@ -48,12 +48,9 @@ const Dashbord = () => {
 
         }
     }
-
-
-
     return (
         <>
-            <div className="row">
+        <div className="row">
                 <div className="bgimg loginBg">
                     <div className="cover cover1">
                         <div className="logo">
@@ -164,9 +161,9 @@ const Dashbord = () => {
                 /> */}
             </div>
             <Footer />
-
+            
         </>
     );
 };
 
-export default Dashbord;
+export default Media;

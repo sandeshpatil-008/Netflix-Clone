@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+     const navigate = useNavigate();
+
     return (
         <>
             <div className="gap"></div>
@@ -12,10 +15,11 @@ const Footer = () => {
                 </div>
                 <div className="footer">
                     <div>
-                        <li>FAQ</li>
-                        <li>Help Centre</li>
-                        <li>Account</li>
-                        <li>Media Centre</li>
+                    
+                        <li onClick={()=>navigate("/faq")}>FAQ</li>
+                        <li onClick={()=>navigate("/help")}>Help Centre</li>
+                        <li onClick={()=>navigate("/login")}>Account</li>
+                        <li onClick={()=>navigate("/media")}>Media Centre</li>
                     </div>
                     <div>
                         <li>Investor Relations</li>

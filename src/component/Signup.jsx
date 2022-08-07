@@ -21,7 +21,7 @@ const Signup = () => {
 
                         <h2 className="step">Enter your password and you'll be watching in no time</h2>
                         <h2 className="step step1">Email</h2>
-                        <h2 className="step" style={{ fontWeight: "bold" }}>Email Section</h2>
+                        <h2 className="step" style={{ fontWeight: "bold" }}>sandeshpatil0008@gmail.com</h2>
 
                         <div className="info1">
                             <input className="email" type="password" placeholder="Enter Password" />
@@ -42,11 +42,11 @@ const Signup = () => {
                     </div>
                     <div className="ftr">
                         <div>
-                            <a href="#">FAQ</a><br /><br />
+                            <a onClick={() => navigate("/faq")}>FAQ</a><br /><br />
                             <a href="#">Cookie Prefrences</a>
                         </div>
                         <div>
-                            <a href="#">Help Center</a><br /><br />
+                            <a onClick={() => navigate("/help")}>Help Center</a><br /><br />
                             <a href="#">Corperate Information</a>
                         </div>
                         <div>
